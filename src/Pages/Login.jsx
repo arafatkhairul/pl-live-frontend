@@ -27,7 +27,7 @@ const Login = (props) => {
     }
   };
 
- 
+
 
   return (
     <>
@@ -48,8 +48,8 @@ const Login = (props) => {
                     draggable="false"
                   />
                 </div>
-                <h2 class="fw-bold mt-2">LogIn Flirtzy</h2>
-               
+                {/* <h2 class="fw-bold mt-2">LogIn Flirtzy</h2>
+                */}
 
                 <form class="text-left">
                   <div class="form">
@@ -124,7 +124,7 @@ const Login = (props) => {
                     </div>
 
                     <div class="row">
-                      
+
                       <div class="field-wrapper mt-3">
                         <button
                           type="button"

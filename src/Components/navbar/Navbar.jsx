@@ -45,7 +45,7 @@ const Navbar = () => {
   });
 
   const { admin } = useSelector((state) => state.admin);
-  
+
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -104,7 +104,7 @@ const Navbar = () => {
     setError({ ...errors, image: "" });
     setOpen(false);
 
-    
+
 
     const formData = new FormData();
     formData.append("image", imageData);
@@ -183,7 +183,7 @@ const Navbar = () => {
                           <span style={{ marginRight: "5px" }}>
                             <img src={logo} alt="" width={35} height={35} />
                           </span>
-                          <span>Flirtzy</span>
+                          <span>PL LIVE</span>
                         </div>
                       </a>
                     </li>

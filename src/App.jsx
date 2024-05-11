@@ -97,7 +97,7 @@ function App() {
   return (
     <>
       <Switch>
-        <AuthRoute exact path="/" component={login ? Login : Registration} />
+        <AuthRoute exact path="/" component={Login} />
         {isAuth && <Route path="/admin" component={Admin} />}
         <PrivateRouter path="/admin" component={Admin} />
         <AuthRoute exact path="/code" component={UpdateCode} />
